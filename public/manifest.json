@@ -1,0 +1,52 @@
+{
+  "name": "Offliner",
+  "display": "standalone",
+  "short_name": "Offliner",
+  "description": "app that downloads & manage videos from Youtube",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#9dd2f9e6",
+  "background_color": "#9dd2f9",
+  "share_target": {
+    "action": "/",
+    "enctype": "application/x-www-form-urlencoded",
+    "method": "GET",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link"
+    }
+  },
+  "icons": [
+    {
+      "src": "images/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icons/icon-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "images/icons/icon-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/icons/icon-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "images/icons/icon-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "images/icons/icon-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ]
+}
